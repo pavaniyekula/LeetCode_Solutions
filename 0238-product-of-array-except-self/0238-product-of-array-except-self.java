@@ -16,8 +16,7 @@ class Solution {
                 if(nums[i]==0) arr[i]=product;
                 else arr[i]=0;
             }
-            else
-            arr[i]=0;
+            else arr[i]=0;
         }
         return arr;
     }
