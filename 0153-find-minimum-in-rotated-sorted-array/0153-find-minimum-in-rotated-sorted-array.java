@@ -11,7 +11,7 @@ class Solution {
             {
                 i=mid+1;
             }
-            else if(nums[mid]<=nums[j])
+            else
             {
                 min=Math.min(min,nums[mid]);
                 j=mid-1;
